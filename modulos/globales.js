@@ -10,3 +10,6 @@ let intervalo = setInterval(function () {
 setImmediate(function(){
   console.log('Hola');
 })
+
+global.miVariable = 'Mi variable'
+console.log(miVariable);
